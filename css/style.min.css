@@ -1,0 +1,23 @@
+.blog-one__form-title, .blog-one__comments-name, .blog-one__comments-title, .blog-one__tags-title, .recent-posts__title, .blog__blockquote-author, .blog__item-title, .blog__category-title, .blog__tags-title, .contact-slider__title, .inspiration__item, .inspiration__title, .about__title, .about__prev-title, .footer__info-title, .blog-box__item-title, .blog-box__title, .work-path__item-title, .work-path__title, .decor__title, .new-collection__title, .top__slider-title, .rightside-menu__title, .menu__list-link {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700
+}
+
+html {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+*, *::after, *::before {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit
+}
+
+ul[class], ol[class] {
+    padding: 0
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, figure, figcaption, blockquote, dl, dd {
+    margin: 0;
+    font-size: inherit
+}
