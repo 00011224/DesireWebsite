@@ -1,8 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Desire</title>
+    <link
+            href="https://fonts.googleapis.com/css?family=Open+Sans:300,regular,600"
+            rel="stylesheet"
+    />
+    <link
+            href="https://fonts.googleapis.com/css?family=Montserrat:700"
+            rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.min.css"/>
 </head>
 <body>
 <div class="wrapper">
@@ -16,6 +27,9 @@
                         </li>
                         <li class="menu__list-item">
                             <a class="menu__list-link" href="gallery.html">Gallery</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a class="menu__list-link" href="team.html">Our team</a>
                         </li>
                     </ul>
                 </nav>
@@ -38,11 +52,11 @@
                     <span></span>
                 </button>
                 <button class="header__btn">
-                    <img src="images/icon_menu.svg" alt="menu icon"/>
+                    <img src="images/icons/icon_menu.svg" alt="menu icon"/>
                 </button>
                 <div class="rightside-menu rightside-menu--close">
                     <button class="rightside-menu__close">
-                        <img src="images/close.svg" alt="close icon"/>
+                        <img src="images/icons/close.svg" alt="close icon"/>
                     </button>
                     <div class="rightside-menu__content">
                         <a class="rightside-menu__logo" href="#">
@@ -64,6 +78,246 @@
             </div>
         </div>
     </header>
+    <main class="main">
+        <section class="top">
+            <div class="top__inner">
+                <div class="top__slider">
+                    <div class="top__slider-item">
+                        <img
+                                class="top__slider-img"
+                                src="images/content/slider-image.png"
+                                alt="slider image"
+                        />
+                        <div class="top__slider-info">
+                            <h2 class="top__slider-title">Desire collections</h2>
+                            <p class="top__slider-text">
+                                Desire has very broad range of collections in the field of furniture
+                            </p>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+        <section class="new-collection">
+            <div class="container-fluid">
+                <h3 class="new-collection__title">Furniture collections</h3>
+                <p class="new-collection__text">
+                    Different furniture with variety of designs that might be suitable for your apartment. You can look
+                    interior designs below!
+                </p>
+                <div class="collection">
+                    <a class="collection__item" href="">
+                        <img
+                                class="collection__images"
+                                src="images/content/GreenSofa.jpg"
+                                alt="green sofa"
+                        />
+                        <div class="collection__info">
+                            <h6 class="collection__info-title">
+                                Green Sofa with small rounded table
+                            </h6>
+                            <p class="collection__info-text">
+                                Sofa | Chair
+                            </p>
+                        </div>
+                    </a>
+                    <a class="collection__item" href="">
+                        <img
+                                class="collection__images"
+                                src="images/content/YellowSofa.jpg"
+                                alt="YellowSofa"
+                        />
+                        <div class="collection__info">
+                            <h6 class="collection__info-title">
+                                Hall with nice interior
+                            </h6>
+                            <p class="collection__info-text">
+                                White Sofa | Yellow carpet
+                            </p>
+                        </div>
+                    </a>
+                    <a class="collection__item" href="">
+                        <img
+                                class="collection__images"
+                                src="images/content/YellowChair.jpg"
+                                alt="YellowChair"
+                        />
+                        <div class="collection__info">
+                            <h6 class="collection__info-title">
+                                Yellow Chair on the way to corridor
+                            </h6>
+                            <p class="collection__info-text">
+                                Yellow Chair
+                            </p>
+                        </div>
+                    </a>
+                    <a class="collection__item" href="">
+                        <img
+                                class="collection__images"
+                                src="images/content/Vase.jpg"
+                                alt="Vase"
+                        />
+                        <div class="collection__info">
+                            <h6 class="collection__info-title">
+                                Vase on the green table
+                            </h6>
+                            <p class="collection__info-text">
+                                Vase | Table
+                            </p>
+                        </div>
+                    </a>
+                    <a class="collection__item" href="">
+                        <img
+                                class="collection__images"
+                                src="images/content/Sofa.jpg"
+                                alt="Sofa"
+                        />
+                        <div class="collection__info">
+                            <h6 class="collection__info-title">
+                                Yellow Sofa in the living room
+                            </h6>
+                            <p class="collection__info-text">
+                                Living room | Yellow Sofa
+                            </p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="decor">
+            <div class="container">
+                <h2 class="decor__title">Make your home beautiful with Desire</h2>
+                <p class="decor__text">
+                    Desire will give you not only furniture but it will also give you comfort and peace so that you can
+                    increase your productivity.
+                </p>
+            </div>
+        </section>
+        <section class="work-path">
+            <div class="container">
+                <h3 class="work-path__title">How it works</h3>
+                <div class="work-path__items">
+                    <div class="work-path__items-box">
+                        <div class="work-path__item work-path__item--consultation">
+                            <img
+                                    class="work-path__item-img"
+                                    src="images/icons/graphic-tool.svg"
+                                    alt="image item"
+                            />
+                            <h6 class="work-path__item-title">Designer Consultation</h6>
+                            <p class="work-path__item-text">
+                                You will receive proper consultation from Senior designers according to your preferences
+                            </p>
+                        </div>
+                        <div class="work-path__item work-path__item--production">
+                            <img
+                                    class="work-path__item-img"
+                                    src="images/icons/sofa.svg"
+                                    alt="image item"
+                            />
+                            <h6 class="work-path__item-title">Production</h6>
+                            <p class="work-path__item-text">
+                                Production team will produce your furniture with high experience
+                            </p>
+                        </div>
+                    </div>
+                    <div class="work-path__item work-path__item--measuring">
+                        <img
+                                class="work-path__item-img"
+                                src="images/icons/measuring-tape.svg"
+                                alt="image item"
+                        />
+                        <h6 class="work-path__item-title">Measurements</h6>
+                        <p class="work-path__item-text">
+                            Appropriate measurements will be taken into consideration according to your apartment size
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="gallery">
+            <div class="container-fluid">
+                <div class="gallery__buttons">
+                    <button class="gallery__btn" data-filter=".bedroom">
+                        Bedroom furniture
+                    </button>
+                    <button class="gallery__btn" data-filter=".living">
+                        Living room furniture
+                    </button>
+                    <button class="gallery__btn" data-filter=".office">
+                        Office furniture
+                    </button>
+                    <button class="gallery__btn" data-filter=".dining">
+                        Dining room futniture
+                    </button>
+                    <button class="gallery__btn" data-filter=".chair">Chair</button>
+                </div>
+                <div class="gallery__inner">
+                    <div class="gallery__items mix bedroom">
+                        <a class="gallery__item" href="#">
+                            <img src="images/gallery/galleryImage1.jpg" alt="gallery image"/>
+                        </a>
+                        <a class="gallery__item" href="#">
+                            <img src="images/gallery/2.jpg" alt="gallery image"/>
+                        </a>
+                        <a class="gallery__item" href="#">
+                            <img src="images/gallery/3.jpg" alt="gallery image"/>
+                        </a>
+                        <a class="gallery__item" href="#">
+                            <img src="images/gallery/4.jpg" alt="gallery image"/>
+                        </a>
+                        <a class="gallery__item" href="#">
+                            <img src="images/gallery/5.jpg" alt="gallery image"/>
+                        </a>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+        <section class="blog-box">
+            <div class="container">
+                <h3 class="blog-box__title">More inspiration ideas</h3>
+                <div class="blog-box__items">
+                    <div class="blog-box__item">
+                        <a class="blog-box__img-link" href="#">
+                            <img src="images/blog/1.jpg" alt="blog image"/>
+                        </a>
+                        <div class="blog-box__links">
+                            <span class="blog-box__date">March 12, 2022</span> |
+                            <a class="blog-box__author" href="#">by Zuhriddin Kenjayev</a> |
+                            <a class="blog-box__theme" href="#">Inrerior</a>
+                        </div>
+                        <a class="blog-box__item-link" href="#">
+                            <h4 class="blog-box__item-title">
+                                Outstanding interior design for your Hall
+                            </h4>
+                        </a>
+                    </div>
+                    <div class="blog-box__item">
+                        <a class="blog-box__img-link" href="#">
+                            <img src="images/blog/2.jpg" alt="blog image"/>
+                        </a>
+                        <div class="blog-box__links">
+                            <span class="blog-box__date">August 15, 2022</span> |
+                            <a class="blog-box__author" href="#"
+                            >by Nodir Nurqulov</a
+                            >
+                            |
+                            <a class="blog-box__theme" href="#">Bedroom interior</a>
+                        </div>
+                        <a class="blog-box__item-link" href="#">
+                            <h4 class="blog-box__item-title">
+                                How to choose proper furniture for your bedroom?
+                            </h4>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 
     <footer class="footer">
         <div class="footer__content">
@@ -158,5 +412,7 @@
         </div>
     </footer>
 </div>
+
+<script src="js/main.js"></script>
 </body>
 </html>
