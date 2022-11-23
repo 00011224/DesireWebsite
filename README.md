@@ -10,9 +10,12 @@ In the Home page, Manufacturing process, from the beginning to the end, is descr
 In the "Gallery" page, clients can see the gallery pictures of furniture.
 Obviously, company contains the "Our team" page which includes information about employees of Desire company.
 In the "Blog" page, clients can read recent blogs posted about furniture.
-"Contact" page contains physical information about company, location, address, phone number and email. (155 words)
-
+"Contact" page contains physical information about company, location, address, phone number and email.
 Desire website is written in pure HTML, CSS, JavaScript without external libraries. 
 Each page consists of navigation bar and footer. Navigation bar contains all links to pages: "About", "Gallery", "Our Team", "Desire", "Blog" and "Contact".
 In the Footer, clients can send emails or contact with company through email. All social media links is located in the footer as well as country and postal code.
-(219 words)
+
+# Links
+Link to GitHub repository: 
+
+Link to hosted website:
