@@ -1,8 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Blog</title>
+    <link
+            href="https://fonts.googleapis.com/css?family=Open+Sans:300,regular,600"
+            rel="stylesheet"
+    />
+    <link
+            href="https://fonts.googleapis.com/css?family=Montserrat:700"
+            rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.min.css"/>
 </head>
 <body>
 <div class="wrapper">
@@ -16,6 +27,9 @@
                         </li>
                         <li class="menu__list-item">
                             <a class="menu__list-link" href="gallery.html">Gallery</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a class="menu__list-link" href="team.html">Our team</a>
                         </li>
                     </ul>
                 </nav>
@@ -40,11 +54,11 @@
                     <span></span>
                 </button>
                 <button class="header__btn">
-                    <img src="images/icon_menu.svg" alt="menu icon"/>
+                    <img src="images/icons/icon_menu.svg" alt="menu icon"/>
                 </button>
                 <div class="rightside-menu rightside-menu--close">
                     <button class="rightside-menu__close">
-                        <img src="images/close.svg" alt="closing icon"/>
+                        <img src="images/icons/close.svg" alt="closing icon"/>
                     </button>
                     <div class="rightside-menu__content">
                         <a class="rightside-menu__logo" href="#">
@@ -64,6 +78,264 @@
             </div>
         </div>
     </header>
+    <main class="main">
+        <div class="breadcrumps">
+            <div class="container">
+                <ul class="breadcrumps__list">
+                    <li class="breadcrumps__item">
+                        <a class="breadcrumps__link" href="index.html">Home</a>
+                    </li>
+                    <li class="breadcrumps__item">
+                        <a class="breadcrumps__link" href="about.html">About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <section class="blog">
+            <div class="container">
+                <div class="blog__inner">
+                    <div class="blog__items">
+                        <div class="blog__item">
+                            <img
+                                    class="blog__item-img"
+                                    src="images/blog-one/1.jpg"
+                                    alt="image"
+                            />
+                            <div class="blog__item-info">
+                                <span class="blog__item-date">August 15, 2022</span> |
+                                <a class="blog__item-author" href="#">by Nodir Nurqulov</a> |
+                                <a class="blog__item-theme" href="#">Bedroom Furniture</a>
+                            </div>
+                            <a class="blog__item-link" href="#">
+                                <h3 class="blog__item-title">
+                                    How to choose proper furniture for your bedroom?
+                                </h3>
+                            </a>
+                            <p class="blog__item-text">
+                                As you ponder how to choose the right bedroom furniture, it’s important to make sure
+                                that everything fits nicely in the space. If your master bedroom is large, you can
+                                easily fit a king-size bed inside, however, smaller bedrooms may only be able to
+                                accommodate a queen or full-size bed. Draw a layout of your new bedroom before you
+                                purchase furniture. Measure the length and width of the room, and take the dimensions of
+                                the furniture you like to ensure that it will fit nicely. If beds are too big, they can
+                                take up too much floor space, making it difficult to move around at night or go in and
+                                out of the bedroom easily. You also don’t want your bedroom to feel cluttered, so always
+                                choose furniture that’s in proportion to the size of the room as a whole.
+                            </p>
+                        </div>
+                        <blockquote class="blog__blockquote">
+                            “Simplicity is not the goal. It is the by-product of a good
+                            idea and modest expectations”
+                            <div class="blog__blockquote-author">Paul Rand</div>
+                        </blockquote>
+                        <div class="blog__item article-popup">
+                            <div class="article-popup__box">
+                                <img src="images/blog-one/2.jpg" alt="image of the blog"/>
+                                <a
+                                        class="blog__item-popup"
+                                        data-fancybox
+                                        href="https://youtu.be/K5T_Vuzdm1I"
+                                >
+                                    <img
+                                            class="blog__item-play"
+                                            src="images/icons/play-button.svg"
+                                            alt="play image"
+                                    />
+                                </a>
+                            </div>
+                            <div class="blog__item-info">
+                                <span class="blog__item-date">August 12, 2022</span> |
+                                <a class="blog__item-author" href="#">by Nodir Nurqulov</a>
+                                |
+                                <a class="blog__item-theme" href="#">Design</a>
+                            </div>
+                            <a class="blog__item-link" href="#">
+                                <h3 class="blog__item-title">Authentic bedroom catalog</h3>
+                            </a>
+                        </div>
+                        <div class="blog__item article-slider">
+                            <div class="article-slider__box">
+                                <img
+                                        class="article-slider__img"
+                                        src="images/blog-one/3.jpg"
+                                        alt="image of the blog"
+                                />
+                            </div>
+                            <div class="blog__item-info">
+                                <span class="blog__item-date">August 28, 2022</span> |
+                                <a class="blog__item-author" href="#">by Botir Ahadovich</a> |
+                                <a class="blog__item-theme" href="#">Table Furniture</a>
+                            </div>
+                            <a class="blog__item-link" href="#">
+                                <h3 class="blog__item-title">
+                                    Functionality: analyze your needs
+                                </h3>
+                            </a>
+                            <p class="blog__item-text">
+                                It is a frequent mistake when furnishing your house doing what everyone does: the living
+                                room has a sofa, a television, a dining table with chairs, etc. However, what you should
+                                do first of all is stop to think about how you make use of your house.
+                            </p>
+                        </div>
+                        <div class="pagination">
+                            <a
+                                    class="pagination__arrow pagination__arrow--disabled"
+                                    href="#"
+                            >
+                                <img
+                                        class="pagination__arrow-icon"
+                                        src="images/icons/arrow-left.svg"
+                                        alt="arrow left"
+                                />
+                            </a>
+                            <ul class="pagination__list">
+                                <li class="pagination__list-item">
+                                    <a
+                                            class="pagination__list-num pagination__list-num--active"
+                                            href="#"
+                                    >1</a
+                                    >
+                                </li>
+                                <li class="pagination__list-item">
+                                    <a class="pagination__list-num" href="#">2</a>
+                                </li>
+                            </ul>
+                            <a class="pagination__arrow" href="#">
+                                <img
+                                        class="pagination__arrow-icon"
+                                        src="images/icons/arrow-right.svg"
+                                        alt="arrow right"
+                                />
+                            </a>
+                        </div>
+                    </div>
+                    <aside class="aside">
+                        <form class="aside__search">
+                            <input
+                                    class="aside__search-input"
+                                    type="text"
+                                    placeholder="Search"
+                            />
+                            <button class="aside__search-btn" type="submit">
+                                <img src="images/icons/search-icon.svg" alt="search icon"/>
+                            </button>
+                        </form>
+                        <div class="blog__category">
+                            <h6 class="blog__category-title">Categories</h6>
+                            <ul class="blog__category-list">
+                                <li class="blog__category-item">
+                                    <a class="blog__category-link" href="#"
+                                    >Dining room (1)</a
+                                    >
+                                </li>
+                                <li class="blog__category-item">
+                                    <a class="blog__category-link" href="#"
+                                    >Office furniture (12)</a
+                                    >
+                                </li>
+                                <li class="blog__category-item">
+                                    <a class="blog__category-link" href="#"
+                                    >Simple interiror design (2)</a
+                                    >
+                                </li>
+                                <li class="blog__category-item">
+                                    <a class="blog__category-link" href="#">Design (4)</a>
+                                </li>
+                                <li class="blog__category-item">
+                                    <a class="blog__category-link" href="#"
+                                    >Bedroom Furniture (1)</a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="recent-posts">
+                            <h6 class="recent-posts__title">Recent Posts</h6>
+                            <ul class="recent-posts__list">
+                                <li class="recent-posts__item">
+                                    <a class="recent-posts__item-title" href="#"
+                                    >Scale and proportions take measures</a
+                                    >
+                                    <span class="recent-posts__date">November 10, 2022</span> |
+                                    <a class="recent-posts__author" href="#"
+                                    >by Jamshid Karimov</a
+                                    >
+                                </li>
+                                <li class="recent-posts__item">
+                                    <a class="recent-posts__item-title" href="#"
+                                    >Harmony materials and colors</a
+                                    >
+                                    <span class="recent-posts__date">September 30 ,2020</span>
+                                    |
+                                    <a class="recent-posts__author" href="#"
+                                    >by Jamshid Karimov</a
+                                    >
+                                </li>
+                                <li class="recent-posts__item">
+                                    <a class="recent-posts__item-title" href="#"
+                                    >5 tips for choosing furniture and getting it right</a
+                                    >
+                                    <span class="recent-posts__date">May 2, 2020</span> |
+                                    <a class="recent-posts__author" href="#"
+                                    >by Zuhriddin Kenjayev</a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="blog__tags">
+                            <h6 class="blog__tags-title">Tags</h6>
+                            <a class="blog__tags-link" href="#">Dining room futniture</a>
+                            <a class="blog__tags-link" href="#">Chair</a>
+                            <a class="blog__tags-link" href="#">Table</a>
+                            <a class="blog__tags-link" href="#">Bedroom</a>
+                            <a class="blog__tags-link" href="#">Office Furniture</a>
+                        </div>
+                        <ul class="blog__social">
+                            <li class="blog__social-item">
+                                <a class="blog__social-link" href="#"
+                                ><img
+                                        src="images/social-media-icons/facebook.svg"
+                                        alt="blog image"
+                                        class="blog__social-img"
+                                /></a>
+                            </li>
+                            <li class="blog__social-item">
+                                <a class="blog__social-link" href="#"
+                                ><img
+                                        src="images/social-media-icons/instagram.svg"
+                                        alt="instagram"
+                                        class="blog__social-img"
+                                /></a>
+                            </li>
+                            <li class="blog__social-item">
+                                <a class="blog__social-link" href="#"
+                                ><img
+                                        src="images/social-media-icons/Pinterest.svg"
+                                        alt="pinterest"
+                                        class="blog__social-img"
+                                /></a>
+                            </li>
+                            <li class="blog__social-item">
+                                <a class="blog__social-link" href="#"
+                                ><img
+                                        src="images/social-media-icons/whatsapp.svg"
+                                        alt="whatsapp"
+                                        class="blog__social-img"
+                                /></a>
+                            </li>
+                            <li class="blog__social-item">
+                                <a class="blog__social-link" href="#"
+                                ><img
+                                        src="images/social-media-icons/youtube.svg"
+                                        alt="youtube"
+                                        class="blog__social-img"
+                                /></a>
+                            </li>
+                        </ul>
+                    </aside>
+                </div>
+            </div>
+        </section>
+    </main>
 
     <footer class="footer">
         <div class="footer__content">
@@ -139,5 +411,7 @@
         </div>
     </footer>
 </div>
+
+<script src="js/main.js"></script>
 </body>
 </html>
