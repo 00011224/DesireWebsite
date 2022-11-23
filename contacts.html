@@ -1,8 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Contact Us</title>
+    <link
+            href="https://fonts.googleapis.com/css?family=Open+Sans:300,regular,600"
+            rel="stylesheet"
+    />
+    <link
+            href="https://fonts.googleapis.com/css?family=Montserrat:700"
+            rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.min.css"/>
 </head>
 <body>
 <div class="wrapper">
@@ -17,6 +28,9 @@
                         <li class="menu__list-item">
                             <a class="menu__list-link" href="gallery.html">Gallery</a>
                         </li>
+                        <li class="menu__list-item">
+                            <a class="menu__list-link" href="team.html">Our team</a>
+                        </li>
                     </ul>
                 </nav>
                 <a class="logo" href="index.html">
@@ -28,9 +42,7 @@
                             <a class="menu__list-link" href="blog.html">Blog</a>
                         </li>
                         <li class="menu__list-item">
-                            <a class="menu__list-link menu__list-link--active" href="contacts.html">
-                                Contact
-                            </a>
+                            <a class="menu__list-link" href="contacts.html">Contact</a>
                         </li>
                     </ul>
                 </nav>
@@ -40,11 +52,11 @@
                     <span></span>
                 </button>
                 <button class="header__btn">
-                    <img src="images/icon_menu.svg" alt="menu icon"/>
+                    <img src="images/icons/icon_menu.svg" alt="menu icon"/>
                 </button>
                 <div class="rightside-menu rightside-menu--close">
                     <button class="rightside-menu__close">
-                        <img src="images/close.svg" alt="close icon"/>
+                        <img src="images/icons/close.svg" alt="close icon"/>
                     </button>
                     <div class="rightside-menu__content">
                         <a class="rightside-menu__logo" href="#">
@@ -66,6 +78,103 @@
             </div>
         </div>
     </header>
+
+    <main class="main">
+        <div class="breadcrumps">
+            <div class="container">
+                <ul class="breadcrumps__list">
+                    <li class="breadcrumps__item">
+                        <a class="breadcrumps__link" href="index.html">Home</a>
+                    </li>
+                    <li class="breadcrumps__item">
+                        <a class="breadcrumps__link" href="about.html">About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2997.086413066135!2d69.2811906157252!3d41.30698370893823!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8ad59297d1cf%3A0xda0402847aed7b96!2z0JzQtdC20LTRg9C90LDRgNC-0LTQvdGL0Lkg0JLQtdGB0YLQvNC40L3RgdGC0LXRgNGB0LrQuNC5INCj0L3QuNCy0LXRgNGB0LjRgtC10YIg0LIg0KLQsNGI0LrQtdC90YLQtQ!5e0!3m2!1sru!2s!4v1668772481718!5m2!1sru!2s" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <section class="contact">
+            <div class="container">
+                <h3 class="contact__title">Contact Us</h3>
+                <ul class="contact__social">
+                    <li class="contact__social-item">
+                        <a class="contact__social-link" href="#"><img
+                                src="images/social-media-icons/facebook.svg"
+                                alt="facebook"
+                                class="contact__social-img"
+                        /></a>
+                    </li>
+                    <li class="contact__social-item">
+                        <a class="contact__social-link" href="#"
+                        ><img
+                                src="images/social-media-icons/instagram.svg"
+                                alt="instagram"
+                                class="contact__social-img"
+                        /></a>
+                    </li>
+                    <li class="contact__social-item">
+                        <a class="contact__social-link" href="#"
+                        ><img
+                                src="images/social-media-icons/Pinterest.svg"
+                                alt="pinterest"
+                                class="contact__social-img"
+                        /></a>
+                    </li>
+                    <li class="contact__social-item">
+                        <a class="contact__social-link" href="#"
+                        ><img
+                                src="images/social-media-icons/whatsapp.svg"
+                                alt="whatsapp"
+                                class="contact__social-img"
+                        /></a>
+                    </li>
+                    <li class="contact__social-item">
+                        <a class="contact__social-link" href="#"
+                        ><img
+                                src="images/social-media-icons/youtube.svg"
+                                alt="youtube"
+                                class="contact__social-img"
+                        /></a>
+                    </li>
+                </ul>
+                <div class="contact__box">
+                    <p class="contact__text">
+                        Desire furniture company has been operating since 2010, Located in Uzbekistan, Tashkent. Desire
+                        has more than 10 years experience of manufacturing and exporting in hotel
+                        furniture, banquet furniture, villa furniture, apartment and outdoor furniture. Our product
+                        include: Sofa, Coffee & Side Tables, Consoles, Chests, Dining Tables, Dining
+                        Chairs, Beds, Desks and so on.
+                    </p>
+                    <a class="contact__phone" href="#">(998) 91 123-45-67</a>
+                    <div class="contact__street">12 Istiqbol Street</div>
+                    <div class="contact__city">
+                        Uzbekistan, Tashkent, 100110
+                    </div>
+                    <a class="info-email" href="#"> desire-admin@gmail.com </a>
+                </div>
+                <form class="contact__form">
+                    <input
+                            class="contact__form-input"
+                            placeholder="Your name"
+                            type="text"
+                    />
+                    <input
+                            class="contact__form-input"
+                            placeholder="Your e-mail"
+                            type="email"
+                    />
+                    <textarea
+                            class="contact__form-area"
+                            placeholder="Your message"
+                    ></textarea>
+                    <button class="contact__form-btn" type="submit">Send</button>
+                </form>
+            </div>
+        </section>
+
+    </main>
 
     <footer class="footer">
         <div class="footer__content">
@@ -156,5 +265,7 @@
         </div>
     </footer>
 </div>
+
+<script src="js/main.js"></script>
 </body>
 </html>
