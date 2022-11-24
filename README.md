@@ -16,6 +16,6 @@ Each page consists of navigation bar and footer. Navigation bar contains all lin
 In the Footer, clients can send emails or contact with company through email. All social media links is located in the footer as well as country and postal code.
 
 # Links
-Link to GitHub repository: 
+Link to GitHub repository: https://github.com/00011224/DesireWebsite
 
-Link to hosted website:
+Link to hosted website: https://jocular-croissant-7d2bac.netlify.app/
